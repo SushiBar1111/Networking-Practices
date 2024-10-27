@@ -1,18 +1,29 @@
 Network Documentation: Day 02 Lab – Device Connectivity
 Objective
-Establish connections between network devices as specified in the provided labels. Use appropriate cable types and ensure accurate configuration based on the absence of Auto MDI-X support on devices. For fiber optic connections, consider the appropriate fiber mode (single or multimode) based on connection distance, though Packet Tracer does not differentiate between them.
+Connect the network devices together according to the labels.
+
+Use the appropriate type of cable .
+
+For practice, assume that Auto MDI-X is disabled, or not supported on the devices.
+
+NOTE: Packet Tracer doesn't differentiate between single-mode 
+and multimode fiber, but think about which one is appropriate when you 
+use a fiber connection.
+
 Network Topology Overview
 The following devices are included in the network setup:
 •	Routers: R1, R2, R3, R4
 •	Switches: SW1, SW2, SW3, SW4, SW5, SW6, SW7, SW8
 •	Computers: PC1, PC2, PC3
 •	Server: SRV1
+
 Cabling Specifications
 The types of cables used for connections are:
 1.	Unshielded Twisted Pair (UTP) – Straight-through cable
 2.	Unshielded Twisted Pair (UTP) – Crossover cable
 3.	Fiber Optic Cable – Single-mode
 4.	Fiber Optic Cable – Multimode
+
 Device Connections
 Below is a detailed list of device connections, port assignments, and cable types:
 1.	PC1 to SW1
